@@ -5,3 +5,29 @@ alias sudo='sudo '
 
 alias reload!='. ~/.zshrc'
 alias cls='clear'
+
+# Easier navigation: ..,...,
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias cdd="cd ~/.dotfiles"
+
+# Shortcuts
+alias d="cd ~/Documents/"
+alias dl="cd ~/Downloads"
+alias g="git"
+alias h="history"
+alias v="vim"
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+#CTF stuff
+alias rot13="tr a-zA-Z n-za-mN-ZA-M"
+
+#git
+alias gs="git status"
+alias gpush="git push"
+alias gpull="git pull"
+alias ga="git add"
+alias gc="git commit -a"

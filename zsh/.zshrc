@@ -27,13 +27,8 @@ export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 
-
-powerline-daemon -q
-. /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
-
-POWERLEVEL9K_MODE="nerdfont-complete"
-
 plugins=(git)
+ZSH_THEME="junkfood"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -64,3 +59,5 @@ alias docked="xrandr --output DP1-3 --crtc 1 --mode 1920x1080 --left-of DP1-1 --
 
 # Aliases
 . ~/.zsh_aliases
+
+source /home/som1/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
