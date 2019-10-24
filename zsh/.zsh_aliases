@@ -1,0 +1,5 @@
+# fix enable aliases to be sudo'ed
+# http://askubuntu.com/quetions/22037/alias-not-available-when-using-sudo
+alias sudo='sudo '
+#alias dotfiles=cd $DOTFILES"
+
