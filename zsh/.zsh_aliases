@@ -31,3 +31,8 @@ alias gpush="git push"
 alias gpull="git pull"
 alias ga="git add"
 alias gc="git commit -a"
+
+#media
+alias ytd="youtube-dl"
+alias yta="youtube-dl -f 'bestaudio[ext=m4a' "
+

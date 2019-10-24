@@ -28,7 +28,7 @@ export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 # ZSH_THEME="robbyrussell"
 
 plugins=(git)
-ZSH_THEME="junkfood"
+ZSH_THEME="amuse"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -61,3 +61,5 @@ alias docked="xrandr --output DP1-3 --crtc 1 --mode 1920x1080 --left-of DP1-1 --
 . ~/.zsh_aliases
 
 source /home/som1/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

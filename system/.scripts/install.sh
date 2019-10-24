@@ -22,4 +22,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-s
 
 echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
 
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
+~/.fzf/install
