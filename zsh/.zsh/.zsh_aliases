@@ -1,0 +1,38 @@
+# fix enable aliases to be sudo'ed
+# http://askubuntu.com/quetions/22037/alias-not-available-when-using-sudo
+alias sudo='sudo '
+#alias dotfiles=cd $DOTFILES"
+
+alias reload!='. ~/.zshrc'
+alias cls='clear'
+
+# Easier navigation: ..,...,
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias cdd="cd ~/.dotfiles"
+
+# Shortcuts
+alias d="cd ~/Documents/"
+alias dl="cd ~/Downloads"
+alias g="git"
+alias h="history"
+alias v="vim"
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+#CTF stuff
+alias rot13="tr a-zA-Z n-za-mN-ZA-M"
+
+#git
+alias gs="git status"
+alias gpush="git push"
+alias gpull="git pull"
+alias ga="git add"
+alias gc="git commit -a"
+
+#media
+alias ytd="youtube-dl"
+alias yta="youtube-dl -f 'bestaudio[ext=m4a' "
+
