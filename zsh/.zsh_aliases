@@ -3,3 +3,5 @@
 alias sudo='sudo '
 #alias dotfiles=cd $DOTFILES"
 
+alias reload!='. ~/.zshrc'
+alias cls='clear'
