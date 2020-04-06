@@ -20,7 +20,7 @@ alias h="history"
 alias v="vim"
 
 # IP addresses
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias ipa="dig +short myip.opendns.com @resolver1.opendns.com"
 
 #CTF stuff
 alias rot13="tr a-zA-Z n-za-mN-ZA-M"

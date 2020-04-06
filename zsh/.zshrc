@@ -1,4 +1,6 @@
 export EDITOR="vim"
+export TERM="rxvt-unicode-256color" #config terminal 256-colors mode
+
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -28,7 +30,7 @@ export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 # ZSH_THEME="robbyrussell"
 
 plugins=(git)
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 
 source $ZSH/oh-my-zsh.sh
 
