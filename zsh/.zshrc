@@ -45,7 +45,7 @@ export LANG=en_US.UTF-8
 # else
 #   export EDITOR='mvim'
 # fi
-
+# test
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -60,6 +60,10 @@ alias docked="xrandr --output DP1-3 --crtc 1 --mode 1920x1080 --left-of DP1-1 --
 # Aliases
 . ~/.zsh_aliases
 
-# source /home/som1/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# powerline
+#powerline-daemon -q
+#. /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+
+source /home/som1/.zsh/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
